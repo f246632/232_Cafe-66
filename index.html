@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe 66 - Ihr gemütliches Café im Herzen von Berlin Wedding. Erstklassiger Kaffee, hausgemachte Spezialitäten und warme Atmosphäre.">
+    <meta name="keywords" content="Cafe 66, Berlin, Wedding, Café, Kaffee, Frühstück, Amsterdamer Straße">
+    <meta name="author" content="Cafe 66">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cafe 66 - Gemütliches Café in Berlin Wedding">
+    <meta property="og:description" content="Erstklassiger Kaffee und hausgemachte Spezialitäten im Herzen von Wedding">
+    <meta property="og:image" content="./images/optimized/hero-1.jpg">
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Cafe 66",
+      "image": "./images/optimized/hero-1.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Amsterdamer Str. 24",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "13347",
+        "addressCountry": "DE"
+      },
+      "telephone": "+4952101100",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "€€",
+      "servesCuisine": "Café, Frühstück, Kaffee"
+    }
+    </script>
+
+    <title>Cafe 66 - Gemütliches Café in Berlin Wedding</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#hero" class="logo">Cafe 66</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about" class="nav-link">Über Uns</a></li>
+                    <li><a href="#menu" class="nav-link">Speisekarte</a></li>
+                    <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                    <li><a href="#location" class="nav-link">Standort</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Cafe 66</h1>
+            <p class="hero-subtitle">Ihr gemütliches Café im Herzen von Wedding</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Unsere Speisekarte</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Willkommen im Cafe 66</h2>
+                <p class="section-subtitle">Ihre Wohlfühloase in Berlin Wedding</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Unsere Geschichte</h3>
+                    <p>Cafe 66 wurde als Nachbarschaftstreffpunkt im Herzen des Wedding-Viertels gegründet. Wir glauben an guten Kaffee, herzlichen Service und die Kraft der Gemeinschaft.</p>
+                    <p>Unser Café ist ein Ort, an dem sich Menschen treffen, arbeiten, entspannen und die authentische Berliner Kiez-Atmosphäre genießen können. Jede Tasse Kaffee wird mit Leidenschaft zubereitet, jedes Gericht mit Liebe zum Detail kreiert.</p>
+                    <div class="values">
+                        <h4>Unsere Werte</h4>
+                        <ul>
+                            <li>Qualität vor Quantität</li>
+                            <li>Nachhaltigkeit und lokale Produkte</li>
+                            <li>Offenheit und Vielfalt</li>
+                            <li>Gemeinschaft und Zusammenhalt</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <span class="feature-icon">☕</span>
+                        <h4>Guter Kaffee</h4>
+                        <p>Frisch geröstete Kaffeespezialitäten aus hochwertigen Bohnen</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🪑</span>
+                        <h4>Gemütliche Atmosphäre</h4>
+                        <p>Entspanntes Ambiente zum Verweilen und Genießen</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">📍</span>
+                        <h4>Im Herzen von Wedding</h4>
+                        <p>Zentrale Lage im lebendigen und authentischen Kiez</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🥐</span>
+                        <h4>Hausgemacht</h4>
+                        <p>Frische Backwaren und Snacks täglich frisch zubereitet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Speisekarte</h2>
+                <p class="section-subtitle">Genießen Sie unsere köstlichen Spezialitäten</p>
+            </div>
+            <div class="menu-grid">
+                <!-- Coffee Menu -->
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Kaffee & Getränke</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Espresso</h4>
+                                <span class="price">2.50€</span>
+                            </div>
+                            <p class="menu-item-description">Klassischer italienischer Espresso</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Cappuccino</h4>
+                                <span class="price">3.50€</span>
+                            </div>
+                            <p class="menu-item-description">Cremiger Cappuccino mit feinem Milchschaum</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Latte Macchiato</h4>
+                                <span class="price">3.80€</span>
+                            </div>
+                            <p class="menu-item-description">Geschichteter Milchkaffee im Glas</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Filterkaffee</h4>
+                                <span class="price">2.80€</span>
+                            </div>
+                            <p class="menu-item-description">Frisch gebrühter Filterkaffee</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Americano</h4>
+                                <span class="price">3.00€</span>
+                            </div>
+                            <p class="menu-item-description">Espresso mit heißem Wasser</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Breakfast Menu -->
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Frühstück</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Croissant</h4>
+                                <span class="price">2.50€</span>
+                            </div>
+                            <p class="menu-item-description">Buttrig und knusprig, täglich frisch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Käseplatte</h4>
+                                <span class="price">6.50€</span>
+                            </div>
+                            <p class="menu-item-description">Auswahl deutscher Käsesorten mit Brot</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Frühstücksteller</h4>
+                                <span class="price">8.90€</span>
+                            </div>
+                            <p class="menu-item-description">Brötchen, Aufschnitt, Käse, Marmelade</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specials Menu -->
+                <div class="menu-category">
+                    <h3 class="menu-category-title">Spezialitäten</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Hausgemachter Kuchen</h4>
+                                <span class="price">3.50€</span>
+                            </div>
+                            <p class="menu-item-description">Täglich wechselnde Kuchensorten</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Quiche</h4>
+                                <span class="price">5.50€</span>
+                            </div>
+                            <p class="menu-item-description">Herzhafte Quiche mit frischem Salat</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Suppe des Tages</h4>
+                                <span class="price">4.50€</span>
+                            </div>
+                            <p class="menu-item-description">Frisch zubereitete Tagessuppe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Atmosphäre</h2>
+                <p class="section-subtitle">Ein Blick in unser gemütliches Café</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-src="./images/optimized/hero-1.jpg">
+                    <img src="./images/optimized/hero-1.jpg" alt="Cafe 66 Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ansehen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./images/optimized/interior-1.jpg">
+                    <img src="./images/optimized/interior-1.jpg" alt="Cafe 66 Innenraum" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ansehen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./images/optimized/gallery-1.jpg">
+                    <img src="./images/optimized/gallery-1.jpg" alt="Cafe 66 Kaffee" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ansehen</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besuchen Sie uns</h2>
+                <p class="section-subtitle">Wir freuen uns auf Ihren Besuch</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-info">
+                    <div class="info-block">
+                        <h3>Adresse</h3>
+                        <p>Amsterdamer Str. 24<br>13347 Berlin<br>Wedding, Deutschland</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>Öffnungszeiten</h3>
+                        <ul class="hours-list">
+                            <li><span>Montag - Donnerstag</span> <span>8:00 - 18:00</span></li>
+                            <li><span>Freitag</span> <span>8:00 - 19:00</span></li>
+                            <li><span>Samstag</span> <span>9:00 - 19:00</span></li>
+                            <li><span>Sonntag</span> <span>9:00 - 18:00</span></li>
+                        </ul>
+                    </div>
+                    <div class="info-block">
+                        <h3>Anfahrt</h3>
+                        <p><strong>U-Bahn:</strong> U9, U6 (Wedding)<br>
+                        <strong>S-Bahn:</strong> S41, S42 (Wedding)<br>
+                        <strong>Tram:</strong> M27, 50</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Cafe%2066&query_place_id=ChIJ27R7otVTqEcRNNeZQv5fIvg" class="btn btn-primary" target="_blank" rel="noopener">Wegbeschreibung</a>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8!2d13.3535!3d52.5518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDMzJzA2LjUiTiAxM8KwMjEnMTIuNiJF!5e0!3m2!1sde!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Cafe 66 Standort Karte">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktieren Sie uns</h2>
+                <p class="section-subtitle">Wir sind für Sie da</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h4>Telefon</h4>
+                            <a href="tel:+4952101100">+49 521 01100</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <h4>E-Mail</h4>
+                            <a href="mailto:info@cafe66-berlin.de">info@cafe66-berlin.de</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Amsterdamer Str. 24<br>13347 Berlin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cafe 66</h3>
+                    <p>Ihr gemütliches Café im Herzen von Wedding</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Öffnungszeiten</h4>
+                    <p>Mo-Do: 8:00 - 18:00<br>
+                    Fr: 8:00 - 19:00<br>
+                    Sa: 9:00 - 19:00<br>
+                    So: 9:00 - 18:00</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>Amsterdamer Str. 24<br>
+                    13347 Berlin<br>
+                    Tel: <a href="tel:+4952101100">+49 521 01100</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cafe 66. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="modal" id="galleryModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Gallery image">
+        <div class="modal-nav">
+            <button class="modal-prev" id="modalPrev">&larr;</button>
+            <button class="modal-next" id="modalNext">&rarr;</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery.js"></script>
+</body>
+</html>

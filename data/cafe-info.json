@@ -1,0 +1,78 @@
+{
+  "name": "Cafe 66",
+  "tagline": "Ihr gemütliches Café im Herzen von Wedding",
+  "description": "Cafe 66 ist eine versteckte Perle im lebendigen Wedding-Viertel. Unser Café bietet erstklassigen Kaffee, hausgemachte Spezialitäten und eine warme, einladende Atmosphäre, in der sich Berliner und Besucher gleichermaßen wohlfühlen.",
+  "contact": {
+    "address": "Amsterdamer Str. 24",
+    "postal_code": "13347",
+    "city": "Berlin",
+    "district": "Wedding",
+    "country": "Deutschland",
+    "phone": "+49 521 01100",
+    "email": "info@cafe66-berlin.de",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Cafe%2066&query_place_id=ChIJ27R7otVTqEcRNNeZQv5fIvg"
+  },
+  "hours": {
+    "monday": "8:00 - 18:00",
+    "tuesday": "8:00 - 18:00",
+    "wednesday": "8:00 - 18:00",
+    "thursday": "8:00 - 18:00",
+    "friday": "8:00 - 19:00",
+    "saturday": "9:00 - 19:00",
+    "sunday": "9:00 - 18:00"
+  },
+  "features": [
+    {
+      "name": "Guter Kaffee",
+      "icon": "☕",
+      "description": "Frisch geröstete Kaffeespezialitäten"
+    },
+    {
+      "name": "Gemütliche Atmosphäre",
+      "icon": "🪑",
+      "description": "Entspanntes Ambiente zum Verweilen"
+    },
+    {
+      "name": "Im Herzen von Wedding",
+      "icon": "📍",
+      "description": "Zentrale Lage im lebendigen Kiez"
+    },
+    {
+      "name": "Hausgemachte Köstlichkeiten",
+      "icon": "🥐",
+      "description": "Frische Backwaren und Snacks"
+    }
+  ],
+  "menu": {
+    "coffee": [
+      {"name": "Espresso", "price": "2.50€", "description": "Klassischer italienischer Espresso"},
+      {"name": "Cappuccino", "price": "3.50€", "description": "Cremiger Cappuccino mit feinem Milchschaum"},
+      {"name": "Latte Macchiato", "price": "3.80€", "description": "Geschichteter Milchkaffee"},
+      {"name": "Filterkaffee", "price": "2.80€", "description": "Frisch gebrühter Filterkaffee"},
+      {"name": "Americano", "price": "3.00€", "description": "Espresso mit heißem Wasser"}
+    ],
+    "breakfast": [
+      {"name": "Croissant", "price": "2.50€", "description": "Buttrig und knusprig"},
+      {"name": "Käseplatte", "price": "6.50€", "description": "Auswahl deutscher Käsesorten"},
+      {"name": "Frühstücksteller", "price": "8.90€", "description": "Brötchen, Aufschnitt, Käse, Marmelade"}
+    ],
+    "specials": [
+      {"name": "Hausgemachter Kuchen", "price": "3.50€", "description": "Täglich wechselnde Kuchensorten"},
+      {"name": "Quiche", "price": "5.50€", "description": "Herzhafte Quiche mit Salat"},
+      {"name": "Suppe des Tages", "price": "4.50€", "description": "Frisch zubereitete Tagessuppe"}
+    ]
+  },
+  "about": {
+    "story": "Cafe 66 wurde als Nachbarschaftstreffpunkt im Herzen des Wedding-Viertels gegründet. Wir glauben an guten Kaffee, herzlichen Service und die Kraft der Gemeinschaft. Unser Café ist ein Ort, an dem sich Menschen treffen, arbeiten, entspannen und die authentische Berliner Kiez-Atmosphäre genießen können.",
+    "values": [
+      "Qualität vor Quantität",
+      "Nachhaltigkeit und lokale Produkte",
+      "Offenheit und Vielfalt",
+      "Gemeinschaft und Zusammenhalt"
+    ]
+  },
+  "neighborhood_context": {
+    "district": "Wedding",
+    "description": "Wedding ist ein authentisches, vielfältiges Berliner Viertel, das für seine lebendige Gemeinschaft, erschwingliche Preise und wachsende Café-Kultur bekannt ist. Weniger touristisch als Mitte oder Kreuzberg, bietet Wedding echte Berliner Atmosphäre."
+  }
+}

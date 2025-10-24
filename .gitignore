@@ -1,0 +1,54 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (if using build tools)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Build outputs (if using build tools)
+dist/
+build/
+.cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Image source files (keep only optimized)
+images/source/*
+!images/source/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*_backup
